@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cbr-scraper"
+version = "0.1.0"
+description = "A simple python program for scraping the front page of CBR"
+authors = ["rosnerdev"]
+readme = "README.md"
+packages = [{include = "cbr_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.2"
+rich = "^13.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
